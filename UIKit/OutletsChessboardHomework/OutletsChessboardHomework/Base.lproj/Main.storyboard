@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="OyA-Hc-5ua" userLabel="chessboard">
+                                <rect key="frame" x="0.0" y="150" width="375" height="375"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="4tf-5e-HpU" userLabel="black square 1">
+                                        <rect key="frame" x="0.0" y="0.0" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="pN5-EF-wzl" userLabel="black square 2">
+                                        <rect key="frame" x="94" y="0.0" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="L3w-cc-oh8" userLabel="black square 3">
+                                        <rect key="frame" x="188" y="0.0" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="YS0-n6-JG8" userLabel="black square 4">
+                                        <rect key="frame" x="282" y="0.0" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="EPH-iT-KNF" userLabel="black square 5">
+                                        <rect key="frame" x="47" y="47" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="XuL-Ud-4Wc" userLabel="black square 6">
+                                        <rect key="frame" x="141" y="47" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="xSJ-IW-TdW" userLabel="black square 7">
+                                        <rect key="frame" x="235" y="47" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="nWS-nh-wZ9" userLabel="black square 8">
+                                        <rect key="frame" x="328" y="47" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="89B-Ul-HB2" userLabel="black square 9">
+                                        <rect key="frame" x="0.0" y="94" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="mgB-ny-gat" userLabel="black square 10">
+                                        <rect key="frame" x="94" y="94" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="LUA-0W-CbO" userLabel="black square 11">
+                                        <rect key="frame" x="188" y="94" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="5mH-MM-Wb0" userLabel="black square 12">
+                                        <rect key="frame" x="282" y="94" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="uQN-TC-xNV" userLabel="black square 13">
+                                        <rect key="frame" x="47" y="141" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="JrG-Rk-2wV" userLabel="black square 14">
+                                        <rect key="frame" x="141" y="141" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="tAz-wK-Pk3" userLabel="black square 15">
+                                        <rect key="frame" x="235" y="141" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="FO0-5I-qgb" userLabel="black square 16">
+                                        <rect key="frame" x="328" y="141" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="IDg-BH-hG2" userLabel="black square 17">
+                                        <rect key="frame" x="0.0" y="188" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="EeN-3r-Uwl" userLabel="black square 18">
+                                        <rect key="frame" x="94" y="188" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="4w8-Dp-Xhw" userLabel="black square 19">
+                                        <rect key="frame" x="188" y="188" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="WEI-Yd-t66" userLabel="black square 20">
+                                        <rect key="frame" x="282" y="188" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="JjO-Aq-eTJ" userLabel="black square 21">
+                                        <rect key="frame" x="47" y="235" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="rgw-aZ-MhR" userLabel="black square 22">
+                                        <rect key="frame" x="141" y="235" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="3cH-eF-hgj" userLabel="black square 23">
+                                        <rect key="frame" x="235" y="235" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="2gz-1G-ADC" userLabel="black square 24">
+                                        <rect key="frame" x="328" y="235" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="Npi-3l-Khb" userLabel="black square 25">
+                                        <rect key="frame" x="0.0" y="282" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="GaS-NY-iHX" userLabel="black square 26">
+                                        <rect key="frame" x="94" y="282" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="xd9-wT-wHj" userLabel="black square 27">
+                                        <rect key="frame" x="188" y="282" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="KHI-SH-c8U" userLabel="black square 28">
+                                        <rect key="frame" x="282" y="282" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="6DX-9a-Kbi" userLabel="black square 29">
+                                        <rect key="frame" x="47" y="328" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="vOq-ch-7Gc" userLabel="black square 30">
+                                        <rect key="frame" x="141" y="328" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="R9i-Cz-GZu" userLabel="black square 31">
+                                        <rect key="frame" x="235" y="328" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="RRa-wt-dp3" userLabel="black square 32">
+                                        <rect key="frame" x="328" y="328" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.5" green="0.3278011616" blue="0.1297739088" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="67y-bq-04Q" userLabel="red checker 1">
+                                <rect key="frame" x="11" y="162" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="9eI-j6-tC5" userLabel="red checker 2">
+                                <rect key="frame" x="105" y="162" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="qBX-HW-PKp" userLabel="red checker 3">
+                                <rect key="frame" x="199" y="162" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="Ns1-Ww-Vya" userLabel="red checker 4">
+                                <rect key="frame" x="293" y="162" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="Rd7-uZ-7Mo" userLabel="red checker 5">
+                                <rect key="frame" x="58" y="209" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="dF7-sz-zHz" userLabel="red checker 6">
+                                <rect key="frame" x="152" y="209" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="Lmz-RZ-rno" userLabel="red checker 7">
+                                <rect key="frame" x="246" y="209" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="b0G-Em-Ml7" userLabel="red checker 8">
+                                <rect key="frame" x="340" y="209" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="XQ2-R1-K1m" userLabel="red checker 9">
+                                <rect key="frame" x="11" y="256" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="18v-M5-1U8" userLabel="red checker 10">
+                                <rect key="frame" x="105" y="256" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="i9K-hO-XFr" userLabel="red checker 11">
+                                <rect key="frame" x="199" y="256" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="Y5I-fp-oum" userLabel="red checker 12">
+                                <rect key="frame" x="293" y="256" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="pb1-6P-gut" userLabel="white checker 1">
+                                <rect key="frame" x="58" y="397" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="YWa-bl-TxV" userLabel="white checker 2">
+                                <rect key="frame" x="152" y="397" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="cH9-tB-bya" userLabel="white checker 3">
+                                <rect key="frame" x="246" y="397" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="WMl-Ut-SdU" userLabel="white checker 4">
+                                <rect key="frame" x="340" y="397" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="IEk-ad-aHe" userLabel="white checker 5">
+                                <rect key="frame" x="11" y="444" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="NPn-P1-TFZ" userLabel="white checker 6">
+                                <rect key="frame" x="105" y="444" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="Mcu-dZ-22c" userLabel="white checker 7">
+                                <rect key="frame" x="199" y="444" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="cdC-6R-Evk" userLabel="white checker 8">
+                                <rect key="frame" x="293" y="444" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="QnJ-9A-rvU" userLabel="white checker 9">
+                                <rect key="frame" x="58" y="491" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="Vky-0R-BKw" userLabel="white checker 10">
+                                <rect key="frame" x="152" y="491" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="fxE-wA-bD5" userLabel="white checker 11">
+                                <rect key="frame" x="246" y="491" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="8Xe-d7-ZX5" userLabel="white checker 12">
+                                <rect key="frame" x="340" y="491" width="23.5" height="23.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="chessBoard" destination="OyA-Hc-5ua" id="RUt-HZ-7Ip"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="4tf-5e-HpU" id="zce-7E-OuX"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="pN5-EF-wzl" id="cSd-ZO-Glo"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="L3w-cc-oh8" id="vyd-cj-X7a"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="YS0-n6-JG8" id="e5I-8g-aC2"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="EPH-iT-KNF" id="Tsa-sb-09n"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="XuL-Ud-4Wc" id="y6U-i1-1K2"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="xSJ-IW-TdW" id="hph-Ox-tlT"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="nWS-nh-wZ9" id="mnW-w2-5CB"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="89B-Ul-HB2" id="qXZ-dx-0d7"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="mgB-ny-gat" id="Sbj-gP-06g"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="LUA-0W-CbO" id="gFl-Pe-hpe"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="5mH-MM-Wb0" id="KxM-St-o0Y"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="uQN-TC-xNV" id="tFc-5U-8Vw"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="JrG-Rk-2wV" id="N1k-lu-fwA"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="tAz-wK-Pk3" id="Cdf-X3-L3J"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="FO0-5I-qgb" id="zCA-4w-1pL"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="IDg-BH-hG2" id="Rvj-op-Mzq"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="EeN-3r-Uwl" id="x8E-NG-uTS"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="4w8-Dp-Xhw" id="8Ov-LU-pYv"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="WEI-Yd-t66" id="D7M-Yy-bsZ"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="JjO-Aq-eTJ" id="pRF-qf-eFV"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="rgw-aZ-MhR" id="tWk-E3-J8c"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="3cH-eF-hgj" id="jra-qT-PiO"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="2gz-1G-ADC" id="SYe-MJ-ZdJ"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="Npi-3l-Khb" id="ADQ-BT-FPA"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="GaS-NY-iHX" id="QpM-9e-eua"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="xd9-wT-wHj" id="xET-tq-8aH"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="KHI-SH-c8U" id="EM8-KO-LOB"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="6DX-9a-Kbi" id="Saz-Nw-vFr"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="vOq-ch-7Gc" id="v6X-ar-P5I"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="R9i-Cz-GZu" id="uwZ-XN-DwI"/>
+                        <outletCollection property="arrayOfBlackSquares" destination="RRa-wt-dp3" id="04y-1u-VfF"/>
+                        <outletCollection property="arrayOfRedCheckers" destination="67y-bq-04Q" id="hDM-Yz-9mk"/>
+                        <outletCollection property="arrayOfRedCheckers" destination="9eI-j6-tC5" id="boY-uJ-7OI"/>
+                        <outletCollection property="arrayOfRedCheckers" destination="qBX-HW-PKp" id="isP-Zt-dPU"/>
+                        <outletCollection property="arrayOfRedCheckers" destination="Ns1-Ww-Vya" id="9Lg-Ec-TbC"/>
+                        <outletCollection property="arrayOfRedCheckers" destination="Rd7-uZ-7Mo" id="kpF-el-5nl"/>
+                        <outletCollection property="arrayOfRedCheckers" destination="dF7-sz-zHz" id="rBM-fp-fSe"/>
+                        <outletCollection property="arrayOfRedCheckers" destination="Lmz-RZ-rno" id="aIP-OQ-YJK"/>
+                        <outletCollection property="arrayOfRedCheckers" destination="b0G-Em-Ml7" id="Aoh-id-pbt"/>
+                        <outletCollection property="arrayOfRedCheckers" destination="XQ2-R1-K1m" id="xe1-Oz-6ju"/>
+                        <outletCollection property="arrayOfRedCheckers" destination="18v-M5-1U8" id="eLQ-lf-cdT"/>
+                        <outletCollection property="arrayOfRedCheckers" destination="i9K-hO-XFr" id="pIv-F7-EIa"/>
+                        <outletCollection property="arrayOfRedCheckers" destination="Y5I-fp-oum" id="wrU-18-HXx"/>
+                        <outletCollection property="arrayOfWhiteCheckers" destination="pb1-6P-gut" id="mjy-Ov-gVm"/>
+                        <outletCollection property="arrayOfWhiteCheckers" destination="YWa-bl-TxV" id="qPp-Vg-96O"/>
+                        <outletCollection property="arrayOfWhiteCheckers" destination="cH9-tB-bya" id="HPa-Hh-rar"/>
+                        <outletCollection property="arrayOfWhiteCheckers" destination="WMl-Ut-SdU" id="kNS-y0-Nh4"/>
+                        <outletCollection property="arrayOfWhiteCheckers" destination="IEk-ad-aHe" id="cb3-L4-mVm"/>
+                        <outletCollection property="arrayOfWhiteCheckers" destination="NPn-P1-TFZ" id="jwZ-4d-KBi"/>
+                        <outletCollection property="arrayOfWhiteCheckers" destination="Mcu-dZ-22c" id="laP-BB-S6g"/>
+                        <outletCollection property="arrayOfWhiteCheckers" destination="cdC-6R-Evk" id="enE-GK-FNm"/>
+                        <outletCollection property="arrayOfWhiteCheckers" destination="QnJ-9A-rvU" id="Z9i-wP-XGi"/>
+                        <outletCollection property="arrayOfWhiteCheckers" destination="Vky-0R-BKw" id="fHf-0d-Oik"/>
+                        <outletCollection property="arrayOfWhiteCheckers" destination="fxE-wA-bD5" id="SY7-2y-caM"/>
+                        <outletCollection property="arrayOfWhiteCheckers" destination="8Xe-d7-ZX5" id="Cd5-kk-FJZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="86.25" y="148.96333333333331"/>
+        </scene>
+    </scenes>
+</document>

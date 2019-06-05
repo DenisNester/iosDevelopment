@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64E93C032227B6F2000601E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E93C022227B6F2000601E9 /* AppDelegate.m */; };
+		64E93C062227B6F2000601E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E93C052227B6F2000601E9 /* ViewController.m */; };
+		64E93C092227B6F2000601E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E93C072227B6F2000601E9 /* Main.storyboard */; };
+		64E93C0B2227B6F3000601E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E93C0A2227B6F3000601E9 /* Assets.xcassets */; };
+		64E93C0E2227B6F3000601E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E93C0C2227B6F3000601E9 /* LaunchScreen.storyboard */; };
+		64E93C112227B6F3000601E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E93C102227B6F3000601E9 /* main.m */; };
+		64E93C1B2227B6F3000601E9 /* GeometryChessboardHomeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E93C1A2227B6F3000601E9 /* GeometryChessboardHomeworkTests.m */; };
+		64E93C262227B6F3000601E9 /* GeometryChessboardHomeworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E93C252227B6F3000601E9 /* GeometryChessboardHomeworkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64E93C172227B6F3000601E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64E93BF62227B6F2000601E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64E93BFD2227B6F2000601E9;
+			remoteInfo = GeometryChessboardHomework;
+		};
+		64E93C222227B6F3000601E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64E93BF62227B6F2000601E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64E93BFD2227B6F2000601E9;
+			remoteInfo = GeometryChessboardHomework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64E93BFE2227B6F2000601E9 /* GeometryChessboardHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometryChessboardHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E93C012227B6F2000601E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64E93C022227B6F2000601E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64E93C042227B6F2000601E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64E93C052227B6F2000601E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64E93C082227B6F2000601E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64E93C0A2227B6F3000601E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64E93C0D2227B6F3000601E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64E93C0F2227B6F3000601E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64E93C102227B6F3000601E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64E93C162227B6F3000601E9 /* GeometryChessboardHomeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometryChessboardHomeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E93C1A2227B6F3000601E9 /* GeometryChessboardHomeworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeometryChessboardHomeworkTests.m; sourceTree = "<group>"; };
+		64E93C1C2227B6F3000601E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64E93C212227B6F3000601E9 /* GeometryChessboardHomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometryChessboardHomeworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E93C252227B6F3000601E9 /* GeometryChessboardHomeworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeometryChessboardHomeworkUITests.m; sourceTree = "<group>"; };
+		64E93C272227B6F3000601E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64E93BFB2227B6F2000601E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E93C132227B6F3000601E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E93C1E2227B6F3000601E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64E93BF52227B6F2000601E9 = {
+			isa = PBXGroup;
+			children = (
+				64E93C002227B6F2000601E9 /* GeometryChessboardHomework */,
+				64E93C192227B6F3000601E9 /* GeometryChessboardHomeworkTests */,
+				64E93C242227B6F3000601E9 /* GeometryChessboardHomeworkUITests */,
+				64E93BFF2227B6F2000601E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64E93BFF2227B6F2000601E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64E93BFE2227B6F2000601E9 /* GeometryChessboardHomework.app */,
+				64E93C162227B6F3000601E9 /* GeometryChessboardHomeworkTests.xctest */,
+				64E93C212227B6F3000601E9 /* GeometryChessboardHomeworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64E93C002227B6F2000601E9 /* GeometryChessboardHomework */ = {
+			isa = PBXGroup;
+			children = (
+				64E93C012227B6F2000601E9 /* AppDelegate.h */,
+				64E93C022227B6F2000601E9 /* AppDelegate.m */,
+				64E93C042227B6F2000601E9 /* ViewController.h */,
+				64E93C052227B6F2000601E9 /* ViewController.m */,
+				64E93C072227B6F2000601E9 /* Main.storyboard */,
+				64E93C0A2227B6F3000601E9 /* Assets.xcassets */,
+				64E93C0C2227B6F3000601E9 /* LaunchScreen.storyboard */,
+				64E93C0F2227B6F3000601E9 /* Info.plist */,
+				64E93C102227B6F3000601E9 /* main.m */,
+			);
+			path = GeometryChessboardHomework;
+			sourceTree = "<group>";
+		};
+		64E93C192227B6F3000601E9 /* GeometryChessboardHomeworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				64E93C1A2227B6F3000601E9 /* GeometryChessboardHomeworkTests.m */,
+				64E93C1C2227B6F3000601E9 /* Info.plist */,
+			);
+			path = GeometryChessboardHomeworkTests;
+			sourceTree = "<group>";
+		};
+		64E93C242227B6F3000601E9 /* GeometryChessboardHomeworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64E93C252227B6F3000601E9 /* GeometryChessboardHomeworkUITests.m */,
+				64E93C272227B6F3000601E9 /* Info.plist */,
+			);
+			path = GeometryChessboardHomeworkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64E93BFD2227B6F2000601E9 /* GeometryChessboardHomework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64E93C2A2227B6F3000601E9 /* Build configuration list for PBXNativeTarget "GeometryChessboardHomework" */;
+			buildPhases = (
+				64E93BFA2227B6F2000601E9 /* Sources */,
+				64E93BFB2227B6F2000601E9 /* Frameworks */,
+				64E93BFC2227B6F2000601E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeometryChessboardHomework;
+			productName = GeometryChessboardHomework;
+			productReference = 64E93BFE2227B6F2000601E9 /* GeometryChessboardHomework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64E93C152227B6F3000601E9 /* GeometryChessboardHomeworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64E93C2D2227B6F3000601E9 /* Build configuration list for PBXNativeTarget "GeometryChessboardHomeworkTests" */;
+			buildPhases = (
+				64E93C122227B6F3000601E9 /* Sources */,
+				64E93C132227B6F3000601E9 /* Frameworks */,
+				64E93C142227B6F3000601E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64E93C182227B6F3000601E9 /* PBXTargetDependency */,
+			);
+			name = GeometryChessboardHomeworkTests;
+			productName = GeometryChessboardHomeworkTests;
+			productReference = 64E93C162227B6F3000601E9 /* GeometryChessboardHomeworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64E93C202227B6F3000601E9 /* GeometryChessboardHomeworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64E93C302227B6F3000601E9 /* Build configuration list for PBXNativeTarget "GeometryChessboardHomeworkUITests" */;
+			buildPhases = (
+				64E93C1D2227B6F3000601E9 /* Sources */,
+				64E93C1E2227B6F3000601E9 /* Frameworks */,
+				64E93C1F2227B6F3000601E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64E93C232227B6F3000601E9 /* PBXTargetDependency */,
+			);
+			name = GeometryChessboardHomeworkUITests;
+			productName = GeometryChessboardHomeworkUITests;
+			productReference = 64E93C212227B6F3000601E9 /* GeometryChessboardHomeworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64E93BF62227B6F2000601E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Denis Nesteruk";
+				TargetAttributes = {
+					64E93BFD2227B6F2000601E9 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					64E93C152227B6F3000601E9 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 64E93BFD2227B6F2000601E9;
+					};
+					64E93C202227B6F3000601E9 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 64E93BFD2227B6F2000601E9;
+					};
+				};
+			};
+			buildConfigurationList = 64E93BF92227B6F2000601E9 /* Build configuration list for PBXProject "GeometryChessboardHomework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64E93BF52227B6F2000601E9;
+			productRefGroup = 64E93BFF2227B6F2000601E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64E93BFD2227B6F2000601E9 /* GeometryChessboardHomework */,
+				64E93C152227B6F3000601E9 /* GeometryChessboardHomeworkTests */,
+				64E93C202227B6F3000601E9 /* GeometryChessboardHomeworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64E93BFC2227B6F2000601E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E93C0E2227B6F3000601E9 /* LaunchScreen.storyboard in Resources */,
+				64E93C0B2227B6F3000601E9 /* Assets.xcassets in Resources */,
+				64E93C092227B6F2000601E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E93C142227B6F3000601E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E93C1F2227B6F3000601E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64E93BFA2227B6F2000601E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E93C062227B6F2000601E9 /* ViewController.m in Sources */,
+				64E93C112227B6F3000601E9 /* main.m in Sources */,
+				64E93C032227B6F2000601E9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E93C122227B6F3000601E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E93C1B2227B6F3000601E9 /* GeometryChessboardHomeworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E93C1D2227B6F3000601E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E93C262227B6F3000601E9 /* GeometryChessboardHomeworkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64E93C182227B6F3000601E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64E93BFD2227B6F2000601E9 /* GeometryChessboardHomework */;
+			targetProxy = 64E93C172227B6F3000601E9 /* PBXContainerItemProxy */;
+		};
+		64E93C232227B6F3000601E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64E93BFD2227B6F2000601E9 /* GeometryChessboardHomework */;
+			targetProxy = 64E93C222227B6F3000601E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64E93C072227B6F2000601E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64E93C082227B6F2000601E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64E93C0C2227B6F3000601E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64E93C0D2227B6F3000601E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64E93C282227B6F3000601E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64E93C292227B6F3000601E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64E93C2B2227B6F3000601E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeometryChessboardHomework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.denisnester.GeometryChessboardHomework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64E93C2C2227B6F3000601E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeometryChessboardHomework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.denisnester.GeometryChessboardHomework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64E93C2E2227B6F3000601E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeometryChessboardHomeworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.denisnester.GeometryChessboardHomeworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeometryChessboardHomework.app/GeometryChessboardHomework";
+			};
+			name = Debug;
+		};
+		64E93C2F2227B6F3000601E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeometryChessboardHomeworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.denisnester.GeometryChessboardHomeworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeometryChessboardHomework.app/GeometryChessboardHomework";
+			};
+			name = Release;
+		};
+		64E93C312227B6F3000601E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeometryChessboardHomeworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.denisnester.GeometryChessboardHomeworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeometryChessboardHomework;
+			};
+			name = Debug;
+		};
+		64E93C322227B6F3000601E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeometryChessboardHomeworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.denisnester.GeometryChessboardHomeworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeometryChessboardHomework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64E93BF92227B6F2000601E9 /* Build configuration list for PBXProject "GeometryChessboardHomework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E93C282227B6F3000601E9 /* Debug */,
+				64E93C292227B6F3000601E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64E93C2A2227B6F3000601E9 /* Build configuration list for PBXNativeTarget "GeometryChessboardHomework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E93C2B2227B6F3000601E9 /* Debug */,
+				64E93C2C2227B6F3000601E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64E93C2D2227B6F3000601E9 /* Build configuration list for PBXNativeTarget "GeometryChessboardHomeworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E93C2E2227B6F3000601E9 /* Debug */,
+				64E93C2F2227B6F3000601E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64E93C302227B6F3000601E9 /* Build configuration list for PBXNativeTarget "GeometryChessboardHomeworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E93C312227B6F3000601E9 /* Debug */,
+				64E93C322227B6F3000601E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64E93BF62227B6F2000601E9 /* Project object */;
+}

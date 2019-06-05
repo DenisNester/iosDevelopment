@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64419EEB22172720008B3F5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64419EEA22172720008B3F5A /* AppDelegate.m */; };
+		64419EEE22172720008B3F5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64419EED22172720008B3F5A /* ViewController.m */; };
+		64419EF122172720008B3F5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64419EEF22172720008B3F5A /* Main.storyboard */; };
+		64419EF322172721008B3F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64419EF222172721008B3F5A /* Assets.xcassets */; };
+		64419EF622172721008B3F5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64419EF422172721008B3F5A /* LaunchScreen.storyboard */; };
+		64419EF922172721008B3F5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64419EF822172721008B3F5A /* main.m */; };
+		64419F0322172721008B3F5A /* GeometryTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64419F0222172721008B3F5A /* GeometryTwoTests.m */; };
+		64419F0E22172721008B3F5A /* GeometryTwoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64419F0D22172721008B3F5A /* GeometryTwoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64419EFF22172721008B3F5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64419EDE22172720008B3F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64419EE522172720008B3F5A;
+			remoteInfo = GeometryTwo;
+		};
+		64419F0A22172721008B3F5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64419EDE22172720008B3F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64419EE522172720008B3F5A;
+			remoteInfo = GeometryTwo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64419EE622172720008B3F5A /* GeometryTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometryTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64419EE922172720008B3F5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64419EEA22172720008B3F5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64419EEC22172720008B3F5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64419EED22172720008B3F5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64419EF022172720008B3F5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64419EF222172721008B3F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64419EF522172721008B3F5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64419EF722172721008B3F5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64419EF822172721008B3F5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64419EFE22172721008B3F5A /* GeometryTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometryTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64419F0222172721008B3F5A /* GeometryTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeometryTwoTests.m; sourceTree = "<group>"; };
+		64419F0422172721008B3F5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64419F0922172721008B3F5A /* GeometryTwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometryTwoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64419F0D22172721008B3F5A /* GeometryTwoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeometryTwoUITests.m; sourceTree = "<group>"; };
+		64419F0F22172721008B3F5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64419EE322172720008B3F5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64419EFB22172721008B3F5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64419F0622172721008B3F5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64419EDD22172720008B3F5A = {
+			isa = PBXGroup;
+			children = (
+				64419EE822172720008B3F5A /* GeometryTwo */,
+				64419F0122172721008B3F5A /* GeometryTwoTests */,
+				64419F0C22172721008B3F5A /* GeometryTwoUITests */,
+				64419EE722172720008B3F5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64419EE722172720008B3F5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64419EE622172720008B3F5A /* GeometryTwo.app */,
+				64419EFE22172721008B3F5A /* GeometryTwoTests.xctest */,
+				64419F0922172721008B3F5A /* GeometryTwoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64419EE822172720008B3F5A /* GeometryTwo */ = {
+			isa = PBXGroup;
+			children = (
+				64419EE922172720008B3F5A /* AppDelegate.h */,
+				64419EEA22172720008B3F5A /* AppDelegate.m */,
+				64419EEC22172720008B3F5A /* ViewController.h */,
+				64419EED22172720008B3F5A /* ViewController.m */,
+				64419EEF22172720008B3F5A /* Main.storyboard */,
+				64419EF222172721008B3F5A /* Assets.xcassets */,
+				64419EF422172721008B3F5A /* LaunchScreen.storyboard */,
+				64419EF722172721008B3F5A /* Info.plist */,
+				64419EF822172721008B3F5A /* main.m */,
+			);
+			path = GeometryTwo;
+			sourceTree = "<group>";
+		};
+		64419F0122172721008B3F5A /* GeometryTwoTests */ = {
+			isa = PBXGroup;
+			children = (
+				64419F0222172721008B3F5A /* GeometryTwoTests.m */,
+				64419F0422172721008B3F5A /* Info.plist */,
+			);
+			path = GeometryTwoTests;
+			sourceTree = "<group>";
+		};
+		64419F0C22172721008B3F5A /* GeometryTwoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64419F0D22172721008B3F5A /* GeometryTwoUITests.m */,
+				64419F0F22172721008B3F5A /* Info.plist */,
+			);
+			path = GeometryTwoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64419EE522172720008B3F5A /* GeometryTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64419F1222172721008B3F5A /* Build configuration list for PBXNativeTarget "GeometryTwo" */;
+			buildPhases = (
+				64419EE222172720008B3F5A /* Sources */,
+				64419EE322172720008B3F5A /* Frameworks */,
+				64419EE422172720008B3F5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeometryTwo;
+			productName = GeometryTwo;
+			productReference = 64419EE622172720008B3F5A /* GeometryTwo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64419EFD22172721008B3F5A /* GeometryTwoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64419F1522172721008B3F5A /* Build configuration list for PBXNativeTarget "GeometryTwoTests" */;
+			buildPhases = (
+				64419EFA22172721008B3F5A /* Sources */,
+				64419EFB22172721008B3F5A /* Frameworks */,
+				64419EFC22172721008B3F5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64419F0022172721008B3F5A /* PBXTargetDependency */,
+			);
+			name = GeometryTwoTests;
+			productName = GeometryTwoTests;
+			productReference = 64419EFE22172721008B3F5A /* GeometryTwoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64419F0822172721008B3F5A /* GeometryTwoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64419F1822172721008B3F5A /* Build configuration list for PBXNativeTarget "GeometryTwoUITests" */;
+			buildPhases = (
+				64419F0522172721008B3F5A /* Sources */,
+				64419F0622172721008B3F5A /* Frameworks */,
+				64419F0722172721008B3F5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64419F0B22172721008B3F5A /* PBXTargetDependency */,
+			);
+			name = GeometryTwoUITests;
+			productName = GeometryTwoUITests;
+			productReference = 64419F0922172721008B3F5A /* GeometryTwoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64419EDE22172720008B3F5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Denis Nesteruk";
+				TargetAttributes = {
+					64419EE522172720008B3F5A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					64419EFD22172721008B3F5A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 64419EE522172720008B3F5A;
+					};
+					64419F0822172721008B3F5A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 64419EE522172720008B3F5A;
+					};
+				};
+			};
+			buildConfigurationList = 64419EE122172720008B3F5A /* Build configuration list for PBXProject "GeometryTwo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64419EDD22172720008B3F5A;
+			productRefGroup = 64419EE722172720008B3F5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64419EE522172720008B3F5A /* GeometryTwo */,
+				64419EFD22172721008B3F5A /* GeometryTwoTests */,
+				64419F0822172721008B3F5A /* GeometryTwoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64419EE422172720008B3F5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64419EF622172721008B3F5A /* LaunchScreen.storyboard in Resources */,
+				64419EF322172721008B3F5A /* Assets.xcassets in Resources */,
+				64419EF122172720008B3F5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64419EFC22172721008B3F5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64419F0722172721008B3F5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64419EE222172720008B3F5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64419EEE22172720008B3F5A /* ViewController.m in Sources */,
+				64419EF922172721008B3F5A /* main.m in Sources */,
+				64419EEB22172720008B3F5A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64419EFA22172721008B3F5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64419F0322172721008B3F5A /* GeometryTwoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64419F0522172721008B3F5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64419F0E22172721008B3F5A /* GeometryTwoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64419F0022172721008B3F5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64419EE522172720008B3F5A /* GeometryTwo */;
+			targetProxy = 64419EFF22172721008B3F5A /* PBXContainerItemProxy */;
+		};
+		64419F0B22172721008B3F5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64419EE522172720008B3F5A /* GeometryTwo */;
+			targetProxy = 64419F0A22172721008B3F5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64419EEF22172720008B3F5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64419EF022172720008B3F5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64419EF422172721008B3F5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64419EF522172721008B3F5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64419F1022172721008B3F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64419F1122172721008B3F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64419F1322172721008B3F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeometryTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.denisnester.GeometryTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64419F1422172721008B3F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeometryTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.denisnester.GeometryTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64419F1622172721008B3F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeometryTwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.denisnester.GeometryTwoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeometryTwo.app/GeometryTwo";
+			};
+			name = Debug;
+		};
+		64419F1722172721008B3F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeometryTwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.denisnester.GeometryTwoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeometryTwo.app/GeometryTwo";
+			};
+			name = Release;
+		};
+		64419F1922172721008B3F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeometryTwoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.denisnester.GeometryTwoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeometryTwo;
+			};
+			name = Debug;
+		};
+		64419F1A22172721008B3F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeometryTwoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.denisnester.GeometryTwoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeometryTwo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64419EE122172720008B3F5A /* Build configuration list for PBXProject "GeometryTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64419F1022172721008B3F5A /* Debug */,
+				64419F1122172721008B3F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64419F1222172721008B3F5A /* Build configuration list for PBXNativeTarget "GeometryTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64419F1322172721008B3F5A /* Debug */,
+				64419F1422172721008B3F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64419F1522172721008B3F5A /* Build configuration list for PBXNativeTarget "GeometryTwoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64419F1622172721008B3F5A /* Debug */,
+				64419F1722172721008B3F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64419F1822172721008B3F5A /* Build configuration list for PBXNativeTarget "GeometryTwoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64419F1922172721008B3F5A /* Debug */,
+				64419F1A22172721008B3F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64419EDE22172720008B3F5A /* Project object */;
+}

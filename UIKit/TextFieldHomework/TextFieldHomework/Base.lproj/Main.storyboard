@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad10_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L2E-Jy-bAx">
+                                <rect key="frame" x="105" y="97" width="153" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H5Y-8g-dmF">
+                                <rect key="frame" x="105" y="439" width="153" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3v-2K-ZDM">
+                                <rect key="frame" x="105" y="393" width="153" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Phone number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uRU-Wu-CyN">
+                                <rect key="frame" x="105" y="349" width="153" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Age" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uWB-Xr-aIA">
+                                <rect key="frame" x="105" y="303" width="153" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPY-lv-js0">
+                                <rect key="frame" x="105" y="253" width="153" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Last name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbr-Jq-5vd">
+                                <rect key="frame" x="105" y="143" width="153" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S2u-Ek-IV9">
+                                <rect key="frame" x="105" y="198" width="153" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your name" textAlignment="right" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="MNT-gf-k62">
+                                <rect key="frame" x="325" y="92" width="185" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" returnKeyType="next" textContentType="name"/>
+                                <connections>
+                                    <action selector="actionChangeName:" destination="BYZ-38-t0r" eventType="editingChanged" id="kv2-WJ-jwa"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="FAQ-NK-kRm"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your email" textAlignment="right" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="6tJ-fX-nVH">
+                                <rect key="frame" x="325" y="388" width="185" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" returnKeyType="next" textContentType="email"/>
+                                <connections>
+                                    <action selector="actionChangeEmail:" destination="BYZ-38-t0r" eventType="editingChanged" id="m2K-Lp-2gi"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="g9d-ys-bKc"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your phone number" textAlignment="right" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="XCT-ar-r1N">
+                                <rect key="frame" x="325" y="344" width="185" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numbersAndPunctuation" returnKeyType="next" textContentType="tel"/>
+                                <connections>
+                                    <action selector="actionChangePhoneNumber:" destination="BYZ-38-t0r" eventType="editingChanged" id="puc-0d-DFB"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="i2d-se-PVx"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your age" textAlignment="right" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="o7m-7V-ugg">
+                                <rect key="frame" x="325" y="298" width="185" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="next"/>
+                                <connections>
+                                    <action selector="actionChangeAge:" destination="BYZ-38-t0r" eventType="editingChanged" id="Klp-bw-tEF"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="vuN-Hj-ZSk"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Create Password" textAlignment="right" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="65n-6a-PhJ">
+                                <rect key="frame" x="325" y="248" width="185" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="next" secureTextEntry="YES" textContentType="password"/>
+                                <connections>
+                                    <action selector="actionChangePassword:" destination="BYZ-38-t0r" eventType="editingChanged" id="akG-5T-GP8"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="JMV-Ew-GJy"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Create Login" textAlignment="right" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="boM-Iq-P1Y">
+                                <rect key="frame" x="325" y="193" width="185" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" returnKeyType="next"/>
+                                <connections>
+                                    <action selector="actionChangeLogin:" destination="BYZ-38-t0r" eventType="editingChanged" id="Ixk-br-trd"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="YC3-e1-4DS"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your last name" textAlignment="right" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Zhj-MO-NcQ">
+                                <rect key="frame" x="325" y="138" width="185" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" returnKeyType="next" textContentType="family-name"/>
+                                <connections>
+                                    <action selector="actionChangeLastName:" destination="BYZ-38-t0r" eventType="editingChanged" id="XJv-cf-P3j"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="GCa-gk-Pqk"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your address" textAlignment="right" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="pCe-ES-vYg">
+                                <rect key="frame" x="325" y="435" width="185" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="done" textContentType="street-address"/>
+                                <connections>
+                                    <action selector="actionChangeAddress:" destination="BYZ-38-t0r" eventType="editingChanged" id="rVz-bH-NVa"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="BVK-Vj-pox"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cvu-5v-KDo">
+                                <rect key="frame" x="541" y="101" width="140" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="15x-JO-FXq">
+                                <rect key="frame" x="541" y="393" width="140" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pkp-nP-ez7">
+                                <rect key="frame" x="541" y="349" width="140" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bX-py-Dn8">
+                                <rect key="frame" x="541" y="303" width="140" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LvK-7D-buY">
+                                <rect key="frame" x="541" y="253" width="140" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XDV-wg-Rh5">
+                                <rect key="frame" x="541" y="143" width="140" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uKz-qv-Kze">
+                                <rect key="frame" x="541" y="198" width="140" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bxy-76-ate">
+                                <rect key="frame" x="541" y="440" width="140" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="addressField" destination="pCe-ES-vYg" id="ZZ7-aw-g9F"/>
+                        <outlet property="addressLabel" destination="bxy-76-ate" id="5tu-LZ-BLH"/>
+                        <outlet property="ageField" destination="o7m-7V-ugg" id="KVC-0c-jlj"/>
+                        <outlet property="ageLabel" destination="8bX-py-Dn8" id="cNe-tD-euE"/>
+                        <outlet property="emailField" destination="6tJ-fX-nVH" id="wGx-ic-QU9"/>
+                        <outlet property="emailLabel" destination="15x-JO-FXq" id="ng2-Xx-u9l"/>
+                        <outlet property="lastNameField" destination="Zhj-MO-NcQ" id="103-GW-2un"/>
+                        <outlet property="lastNameLabel" destination="XDV-wg-Rh5" id="4qb-Os-IQT"/>
+                        <outlet property="loginLabel" destination="uKz-qv-Kze" id="82g-MA-zDD"/>
+                        <outlet property="logingField" destination="boM-Iq-P1Y" id="Gk8-a8-uSM"/>
+                        <outlet property="nameField" destination="MNT-gf-k62" id="naA-vv-T1A"/>
+                        <outlet property="nameLabel" destination="Cvu-5v-KDo" id="Ac6-MB-VBk"/>
+                        <outlet property="passwordField" destination="65n-6a-PhJ" id="3d8-Up-zXm"/>
+                        <outlet property="passwordLabel" destination="LvK-7D-buY" id="UAI-Zw-a4r"/>
+                        <outlet property="phoneNumberField" destination="XCT-ar-r1N" id="uWh-Ae-QZa"/>
+                        <outlet property="phoneNumberLabel" destination="Pkp-nP-ez7" id="1TM-X6-dzc"/>
+                        <outletCollection property="fieldsForRegistration" destination="MNT-gf-k62" id="kYP-KB-QKp"/>
+                        <outletCollection property="fieldsForRegistration" destination="Zhj-MO-NcQ" id="ONe-7Q-vSt"/>
+                        <outletCollection property="fieldsForRegistration" destination="boM-Iq-P1Y" id="CBt-EL-C2m"/>
+                        <outletCollection property="fieldsForRegistration" destination="65n-6a-PhJ" id="905-w7-oBY"/>
+                        <outletCollection property="fieldsForRegistration" destination="o7m-7V-ugg" id="v90-1L-ATn"/>
+                        <outletCollection property="fieldsForRegistration" destination="XCT-ar-r1N" id="tyb-Op-X4V"/>
+                        <outletCollection property="fieldsForRegistration" destination="6tJ-fX-nVH" id="yCB-bx-Uve"/>
+                        <outletCollection property="fieldsForRegistration" destination="pCe-ES-vYg" id="L8A-5N-Kfv"/>
+                        <outletCollection property="labelForRegistration" destination="Cvu-5v-KDo" id="hCC-jK-s2i"/>
+                        <outletCollection property="labelForRegistration" destination="XDV-wg-Rh5" id="lua-4D-SIi"/>
+                        <outletCollection property="labelForRegistration" destination="uKz-qv-Kze" id="gh7-cn-dkC"/>
+                        <outletCollection property="labelForRegistration" destination="LvK-7D-buY" id="qxl-pE-2M1"/>
+                        <outletCollection property="labelForRegistration" destination="8bX-py-Dn8" id="6Qg-xI-i3P"/>
+                        <outletCollection property="labelForRegistration" destination="Pkp-nP-ez7" id="bHd-Xo-w0J"/>
+                        <outletCollection property="labelForRegistration" destination="15x-JO-FXq" id="L5s-1J-5hg"/>
+                        <outletCollection property="labelForRegistration" destination="bxy-76-ate" id="4Mc-Db-5Sj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.41007194244605" y="133.81294964028777"/>
+        </scene>
+    </scenes>
+</document>

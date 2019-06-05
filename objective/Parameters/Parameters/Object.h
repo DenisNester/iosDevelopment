@@ -1,0 +1,19 @@
+//
+//  Object.h
+//  Parameters
+//
+//  Created by Denis Nesteruk on 1/29/19.
+//  Copyright © 2019 Denis Nesteruk. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface Object : NSObject <NSCopying>
+
+@property (strong, nonatomic) NSString* name;
+
+@end
+
+NS_ASSUME_NONNULL_END
